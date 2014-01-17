@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="top" >
+	
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical" >
+	    
+	    <TextView
+	        android:id="@+id/txDay"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:background="@color/greydark"
+	        android:textColor="@color/white"
+	        android:paddingLeft="10dp"
+	        android:text="@string/txDay" />
+	    
+	    <DatePicker
+	        android:id="@+id/datePicker"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_vertical|center_horizontal" />
+	
+	    
+	    <TextView
+	        android:id="@+id/txHour"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:background="@color/greydark"
+	        android:textColor="@color/white"
+	        android:paddingLeft="10dp"
+	        android:text="@string/txHour" />
+	    
+	    <TimePicker
+	        android:id="@+id/timePicker"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_vertical|center_horizontal" />
+	
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal" >
+	
+	        <Button
+	            android:id="@+id/cancel"
+	            style="?android:attr/buttonStyleSmall"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="1"
+	            android:text="@string/cancel" />
+	
+	        <Button
+	            android:id="@+id/setNull"
+	            style="?android:attr/buttonStyleSmall"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="1"
+	            android:text="@string/none" />
+	
+	        <Button
+	            android:id="@+id/setDate"
+	            style="?android:attr/buttonStyleSmall"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="1"
+	            android:text="@string/set" />
+	
+	    </LinearLayout>
+	
+	</LinearLayout>
+	
+</ScrollView>	

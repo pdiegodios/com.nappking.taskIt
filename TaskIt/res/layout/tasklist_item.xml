@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/bluelightest"
+    android:orientation="horizontal" 
+    android:padding="5dip">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+	        
+	        <TextView
+	            android:id="@+id/listName"
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="1"
+	            android:gravity="bottom|left"
+	        	android:textIsSelectable="false"
+	            android:textAppearance="?android:attr/textAppearanceMedium" />
+	        	        
+	        <ImageView
+	            android:id="@+id/disaster"
+	            android:layout_width="20dp"
+	            android:layout_height="match_parent"
+	            android:contentDescription="@drawable/disasterbox"
+	            android:src="@drawable/disasterbox" />
+	        
+	        <TextView
+	            android:id="@+id/totalTasks"
+	            android:layout_width="25dp"
+	            android:layout_height="match_parent"
+	            android:layout_gravity="center_vertical"
+        		android:background="@drawable/circle_blue"
+	            android:gravity="center_vertical|center_horizontal"
+	        	android:textIsSelectable="false"
+	            android:textAppearance="?android:attr/textAppearanceSmall"
+	            android:textSize="12sp" />
+
+		</LinearLayout>
+
+	    <ProgressBar
+	        android:id="@+id/progress"
+            android:indeterminate="false" 
+	        style="?android:attr/progressBarStyleHorizontal"
+	        android:progressDrawable="@drawable/greenprogress"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:maxHeight="5dip" 
+	        android:minHeight="5dip"
+	        android:layout_marginTop="5dp" />
+
+    </LinearLayout>
+    
+
+    <TextView
+        android:id="@+id/countTasks"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="5dp"
+	    android:textIsSelectable="false"
+        android:background="@drawable/circle_green"
+        android:gravity="center_vertical|center_horizontal"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+</LinearLayout>

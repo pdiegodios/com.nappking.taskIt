@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- TITLE -->
+    <string name="app_name">Task-It</string>
+    
+    <!-- MENU -->
+    <string name="menu_settings">Settings</string>
+    <string name="menu_lists">Lists</string>
+    <string name="menu_today">Today</string>
+    <string name="menu_expired">Expired</string>
+    <string name="menu_starred">Favorites</string>
+    <string name="menu_tomorrow">Tomorrow</string>
+    <string name="menu_nextdays">Next 7 days</string>
+    <string name="menu_all">All</string>
+    <string name="menu_noexpiration">No expiration</string>
+    <string name="menu_map">Map</string>
+    <string name="menu_contacts">Contacts</string>
+    <string name="menu_sort">Sort by</string>
+    
+    <!-- CONTEXT OPTIONS -->
+    <string name="option_details">Details</string>
+    <string name="option_open">Open</string>
+    <string name="option_edit">Edit</string>
+    <string name="option_editname">Edit name</string>
+    <string name="option_save">Save</string>
+    <string name="option_delete">Delete</string>
+    <string name="option_finished">Finished</string>
+    <string name="option_unfinished">Unfinished</string>
+    <string name="option_starred">Favorite</string>
+    <string name="option_unstarred">Remove from favorites</string>
+    <string name="option_associated">See contact details</string>
+    <string name="option_reminder">Remove reminder</string>
+    
+    <!-- ERROR -->
+    <string name="error_updatetask">Error updating task</string>
+            
+    <!-- ASK -->
+    <string name="askforconfirmation">Are you sure you want to quit?</string>  
+    <string name="askfordeletetask">Do you want to delete the task called</string>   
+    <string name="askfordeletelist">Do you want to delete the list called</string>  
+    
+    <!-- TEXT -->
+    <string name="txDetails">Task details</string>
+    <string name="txDetailsList">List details</string>
+    <string name="txSearchable">Search..</string>
+    <string name="txStarred">Favorite</string>
+    <string name="txAddList">Add a new list</string>
+    <string name="txAddTask">Add a new task</string>
+    <string name="txCompleted">Finished</string>
+    <string name="txAssociate">Linked to</string>
+    <string name="txDay">Day</string>
+    <string name="txHour">Hour</string>
+    <string name="txNote">Notes</string>
+    <string name="txList">List</string>
+    <string name="txDeleted">deleted</string>
+    <string name="txStartDate">Start date</string>
+    <string name="txDateExpiration">Expiration date</string>
+    <string name="txReminder">Reminder</string>
+    <string name="txName">Name</string>
+    <string name="txNewNameTask">New task name</string>
+    <string name="txPriority">Priority</string>
+    <string name="txExpiration">Expiration</string>
+    <string name="empty_list">No items in list.</string> 
+    <string name="cancel">Cancel</string>  
+    <string name="accept">Accept</string>  
+    <string name="exitapp">Quit the app</string> 
+    <string name="set">Set</string>  
+    <string name="none">None</string>  
+    <string name="mobile">Mobile</string>
+    <string name="home">Home</string>
+    <string name="work">Work</string>
+    <string name="phone_call">Call</string>
+    <string name="minutes">minutes</string>
+    <string name="tasks">Tasks</string>
+    <string name="photo">Photo</string>
+    <string name="icon">Icon</string>
+
+</resources>

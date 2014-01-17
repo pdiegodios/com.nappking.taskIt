@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="?android:attr/listPreferredItemHeightSmall"
+    android:focusable="false"
+    android:background="@color/white"
+    android:padding="3dip" >
+	    <ImageView
+	        android:id="@+id/photo"
+	        android:layout_width="44dp"
+	        android:layout_height="44dp"
+	        android:layout_gravity="center_vertical"
+	        android:contentDescription="@string/photo"
+	        android:layout_marginRight="3dip"/>
+	    <LinearLayout 
+	        android:orientation="vertical"
+	        android:layout_width="0dip"
+	        android:layout_weight="1"
+	        android:layout_height="fill_parent">	        
+		        <TextView 
+		            android:id="@+id/name"
+		            android:textSize="22sp"
+		            android:layout_width="match_parent"
+		            android:layout_height="match_parent"
+		            android:layout_weight="1"
+		            android:layout_marginLeft="5dp"
+		            android:gravity="center_vertical"
+		        />		        
+		    <LinearLayout 
+		        android:orientation="horizontal"
+		        android:layout_width="match_parent"
+		        android:layout_weight="1.4"
+		        android:layout_height="match_parent">
+		        <ImageView
+		            android:id="@+id/phone_icon"
+		            android:layout_width="19dp"
+		            android:layout_height="19dp"
+		            android:layout_marginLeft="5dp"
+		            android:layout_gravity="center_vertical"
+		            android:src="@drawable/phone_icon" />
+		        <TextView 
+		            android:id="@+id/phone"
+		            android:layout_width="0dip"
+		            android:layout_height="match_parent"
+		            android:layout_weight="1"
+		            android:gravity="center_vertical"
+		        />
+		    </LinearLayout>
+	    </LinearLayout>
+</LinearLayout>

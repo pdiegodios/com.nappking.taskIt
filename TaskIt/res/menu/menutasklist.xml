@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+	  
+    <item android:id="@+id/subMenu" android:icon="@drawable/orderby" android:title="@string/menu_sort" android:showAsAction="ifRoom">
+	    <menu>
+	        <item 
+	            android:id="@+id/sortByExpiration" 
+	            android:title="@string/txExpiration" 
+	            android:icon="@drawable/calendar"/>
+	        <item 
+	            android:id="@+id/sortByPriority" 
+	            android:title="@string/txPriority" 
+	            android:icon="@drawable/priority"/>
+	        <item 
+	            android:id="@+id/sortByName" 
+	            android:title="@string/txName" 
+	            android:icon="@drawable/name"/>
+	    </menu>
+	</item>   
+    <item 
+        android:id="@+id/check" 
+        android:title="@string/option_finished" 
+        android:icon="@drawable/checked" 
+        android:showAsAction="always">        
+    </item>
+    
+    <item 
+        android:id="@+id/unchecked" 
+        android:title="@string/option_unfinished" 
+        android:icon="@drawable/unchecked" 
+        android:showAsAction="always">      
+    </item>
+
+</menu>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- TITLE -->
+    <string name="app_name">Task-It</string>
+    
+    <!-- MENU -->
+    <string name="menu_settings">Configuración</string>
+    <string name="menu_lists">Listas</string>
+    <string name="menu_today">Hoy</string>
+    <string name="menu_expired">Expiradas</string>
+    <string name="menu_starred">Destacadas</string>
+    <string name="menu_tomorrow">Mañana</string>
+    <string name="menu_nextdays">Próximos 7 días</string>
+    <string name="menu_all">Todas</string>
+    <string name="menu_noexpiration">Sin Vencimiento</string>
+    <string name="menu_map">Mapa</string>
+    <string name="menu_contacts">Contactos</string>
+    <string name="menu_sort">Orden</string>
+    
+    <!-- CONTEXT OPTIONS -->
+    <string name="option_details">Ver detalles</string>
+    <string name="option_open">Abrir</string>
+    <string name="option_edit">Editar</string>
+    <string name="option_editname">Editar nombre</string>
+    <string name="option_save">Guardar</string>
+    <string name="option_delete">Eliminar</string>
+    <string name="option_finished">Terminada</string>
+    <string name="option_unfinished">Sin terminar</string>
+    <string name="option_starred">Favorito</string>
+    <string name="option_unstarred">Quitar de favorito</string>
+    <string name="option_associated">Ver Asociado</string>
+    <string name="option_reminder">Quitar recordatorio</string>
+    
+    <!-- ERROR -->
+    <string name="error_updatetask">Error al actualizar tarea</string>
+            
+    <!-- ASK -->
+    <string name="askforconfirmation">¿Está seguro de que desea salir?</string>  
+    <string name="askfordeletetask">Desea borrar la tarea</string>   
+    <string name="askfordeletelist">Desea borrar la lista</string>  
+    
+    <!-- TEXT -->
+    <string name="txDetails">Detalles de tarea</string>
+    <string name="txDetailsList">Detalles de Lista</string>
+    <string name="txSearchable">Busca..</string>
+    <string name="txStarred">Destacada</string>
+    <string name="txAddList">Añadir una nueva lista</string>
+    <string name="txAddTask">Añadir una nueva tarea</string>
+    <string name="txCompleted">Hecho</string>
+    <string name="txAssociate">Asociada a</string>
+    <string name="txDay">Día</string>
+    <string name="txHour">Hora</string>
+    <string name="txNote">Notas</string>
+    <string name="txList">Lista</string>
+    <string name="txDeleted">eliminada</string>
+    <string name="txStartDate">Fecha de Inicio</string>
+    <string name="txDateExpiration">Fecha de Vencimiento</string>
+    <string name="txReminder">Recordatorio</string>
+    <string name="txName">Nombre</string>
+    <string name="txNewNameTask">Nuevo nombre de la tarea</string>
+    <string name="txPriority">Prioridad</string>
+    <string name="txExpiration">Expiración</string>
+    <string name="empty_list">No hay elementos en la lista.</string> 
+    <string name="cancel">Cancelar</string>  
+    <string name="accept">Confirmar</string>  
+    <string name="exitapp">Salir de la aplicación</string> 
+    <string name="set">Establecer</string>  
+    <string name="none">Ninguno</string>  
+    <string name="mobile">Móvil</string>
+    <string name="home">Casa</string>
+    <string name="work">Trabajo</string>
+    <string name="phone_call">Llamar</string>
+    <string name="minutes">minutos</string>
+    <string name="tasks">Tareas</string>
+    <string name="photo">Foto</string>
+    <string name="icon">Icono</string>
+
+</resources>
